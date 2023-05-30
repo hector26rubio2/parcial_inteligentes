@@ -1,116 +1,43 @@
-import glob
-import os
-
 import cv2
 import numpy as np
-
-from Prediccion import Prediccion
-from recorte import Recorta
+from tensorflow.python.keras.models import load_model
 
 
-def calcularAreas(figura):
-    areas = []
-    for figuraActual in figura:
-        areas.append(cv2.contourArea(figuraActual))
-    return areas
+class Prediccion:
+    def __init__(self, ruta, ancho, alto):
+        print(ruta)
+        self.modelo = load_model(ruta)
+        self.alto = alto
+        self.ancho = ancho
 
-
-####    CARGA LAS IMAGENES QUE SE ESTÁN EN LA CARPETA "imagenesPrueba"
-def cargarDatos(numeroCategorias):
-    imagenesCargadas = []
-    for categoria in range(1, numeroCategorias):
-        ruta = "imagenesPrueba/" + str(categoria) + "_1.jpg"
-        imagen = cv2.imread(ruta)
+    def predecir(self, imagen):
+        imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
+        imagen = cv2.resize(imagen, (self.ancho, self.alto))
+        imagen = imagen.flatten()
+        imagen = imagen / 255
+        imagenesCargadas = []
         imagenesCargadas.append(imagen)
-    return imagenesCargadas
+        imagenesCargadasNPA = np.array(imagenesCargadas)
+        predicciones = self.modelo.predict(x=imagenesCargadasNPA)
+        print("Predicciones=", predicciones)
+        clasesMayores = np.argmax(predicciones, axis=1)
+        return clasesMayores[0]
 
 
-###     ELIMINA LAS IMAGENES QUE SE HAN TOMADO
-def eliminarImagenes():
-    py_files = glob.glob('imagenesPrueba/*.jpg')
+clases=["numero 0","numero 1","numero 2","numero 3","numero 4","numero 5","numero 6","numero 7","numero 8","numero 9"]
 
-    for py_file in py_files:
-        try:
-            os.remove(py_file)
-        except OSError as e:
-            print(f"Error:{e.strerror}")
+ancho=128
+alto=128
 
+miModeloCNN=Prediccion("C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/modeloA.h5",ancho,alto)
+imagen=cv2.imread("dataset/test/8/8_15.jpg")
 
-def detectarPoligono(imagen):
-    global num, suma, acumulado
-    global flag
-    # PREPROCESADO DE LA IMÁGEN
-    imagenGris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
-    bordes = cv2.Canny(imagenGris, 59, 86)
-    kernel = np.ones((2, 2), np.uint8)
-    bordes = cv2.dilate(bordes, kernel)
-
-    ######### DETECCIÓN DE IMÁGEN ################
-    # RETR_EXTERNAL solo para contornos padres
-    figuras, jerarquia = cv2.findContours(bordes, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    areas = calcularAreas(figuras)
-
-    i = 0
-    sendFiguras = []
-    for figuraActual in figuras:
-        if areas[i] > 1000:  # Elimina los contornos insignificantes
-            cv2.drawContours(imagen, [figuraActual], 0, (251, 247, 0), 2)
-            cv2.putText(imagen, "Carta", np.array(figuraActual[0][0]), cv2.FONT_HERSHEY_SIMPLEX, 1, (251, 247, 0), 2,
-                        cv2.LINE_AA)
-            sendFiguras.append(figuraActual)
-        i = i + 1
-
-    ############# SUMAR LOS VALORES
-    if flag:
-        suma = 0
-        # Cuenta la cantidad de archivos en la carpeta
-        _, _, files = next(os.walk("imagenesPrueba/"))
-        file_count = len(files) + 1
-        # Carga la cantidad de archivos en la carpeta
-        imagenes = cargarDatos(file_count)
-
-        # Predice el valor de cada imagen
-        for imgActual in imagenes:
-            imgActual = cv2.cvtColor(imgActual, cv2.COLOR_BGR2GRAY)
-            suma = suma + modeloCNN.predecir(imgActual)  # Retorna el valor de la carta
-        acumulado = acumulado + suma
-
-        # Elimina las imágenes para volver a sumarlas
-        eliminarImagenes()
-        num = 1
-        flag = False
-
-    msg1 = "Suma = " + str(suma)
-    msg2 = "Acumulado = " + str(acumulado)
-    cv2.putText(imagen, msg1, (400, 450), cv2.FONT_HERSHEY_SIMPLEX, 1, (243, 239, 93), 2, cv2.LINE_AA)
-    cv2.putText(imagen, msg2, (10, 450), cv2.FONT_HERSHEY_SIMPLEX, 1, (243, 239, 93), 2, cv2.LINE_AA)
-
-    return [bordes, sendFiguras]
-
-
-# Numero de fotos
-num = 1  # Número que lleva el conteo de las fotos tomadas
-suma = 0
-acumulado = 0  # Lleva el acumulado de la suma de las cartas
-flag = False  # Bandera que se habilita para realizar las operaciones
-video = cv2.VideoCapture(1)  # Abrir camara
-dir_root="C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/"
-modeloCNN = Prediccion(dir_root+"modeloA.h5", 128, 128) #Cargar el modelo
+claseResultado=miModeloCNN.predecir(imagen)
+print("La imagen cargada es ",clases[claseResultado])
 
 while True:
-    _, imagen = video.read()
-    imgBorder, shapes = detectarPoligono(imagen)
-    small_img = Recorta()
-
-    cv2.imshow("Imagen", imagen)
-    # Cerrar la ventana
-    k = cv2.waitKey(5) & 0xFF
-    if k == 27:
+    cv2.imshow("imagen",imagen)
+    k=cv2.waitKey(30) & 0xff
+    if k==27:
         break
-
-    ## Captura las imagenes para procesarlas ##
-    if k == ord('p'):
-        num = small_img.recortar('imagenesPrueba/', imgBorder, shapes, 1, num)
-        num = num + 1
-        flag = True
-
+cv2.destroyAllWindows()
