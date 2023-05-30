@@ -52,11 +52,28 @@
         "documentation": {}
     },
     {
-        "label": "load_model",
-        "importPath": "tensorflow.python.keras.models",
-        "description": "tensorflow.python.keras.models",
+        "label": "glob",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "tensorflow.python.keras.models",
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "Prediccion",
+        "importPath": "Prediccion",
+        "description": "Prediccion",
+        "isExtraImport": true,
+        "detail": "Prediccion",
+        "documentation": {}
+    },
+    {
+        "label": "Recorta",
+        "importPath": "recorte",
+        "description": "recorte",
+        "isExtraImport": true,
+        "detail": "recorte",
         "documentation": {}
     },
     {
@@ -134,6 +151,14 @@
         "documentation": {}
     },
     {
+        "label": "load_model",
+        "importPath": "tensorflow.python.keras.models",
+        "description": "tensorflow.python.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.python.keras.models",
+        "documentation": {}
+    },
+    {
         "label": "CargarDataSet",
         "kind": 6,
         "importPath": "cargarDatos.cargarDataset",
@@ -161,12 +186,102 @@
         "documentation": {}
     },
     {
-        "label": "Prediccion",
-        "kind": 6,
+        "label": "calcularAreas",
+        "kind": 2,
         "importPath": "main.control",
         "description": "main.control",
-        "peekOfCode": "class Prediccion:\n    def __init__(self, ruta, ancho, alto):\n        print(ruta)\n        self.modelo = load_model(ruta)\n        self.alto = alto\n        self.ancho = ancho\n    def predecir(self, imagen):\n        imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n        imagen = cv2.resize(imagen, (self.ancho, self.alto))\n        imagen = imagen.flatten()",
+        "peekOfCode": "def calcularAreas(figura):\n    areas = []\n    for figuraActual in figura:\n        areas.append(cv2.contourArea(figuraActual))\n    return areas\n####    CARGA LAS IMAGENES QUE SE ESTÁN EN LA CARPETA \"imagenesPrueba\"\ndef cargarDatos(numeroCategorias):\n    imagenesCargadas = []\n    for categoria in range(1, numeroCategorias):\n        ruta = \"imagenesPrueba/\" + str(categoria) + \"_1.jpg\"",
         "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "cargarDatos",
+        "kind": 2,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "def cargarDatos(numeroCategorias):\n    imagenesCargadas = []\n    for categoria in range(1, numeroCategorias):\n        ruta = \"imagenesPrueba/\" + str(categoria) + \"_1.jpg\"\n        imagen = cv2.imread(ruta)\n        imagenesCargadas.append(imagen)\n    return imagenesCargadas\n###     ELIMINA LAS IMAGENES QUE SE HAN TOMADO\ndef eliminarImagenes():\n    py_files = glob.glob('imagenesPrueba/*.jpg')",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "eliminarImagenes",
+        "kind": 2,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "def eliminarImagenes():\n    py_files = glob.glob('imagenesPrueba/*.jpg')\n    for py_file in py_files:\n        try:\n            os.remove(py_file)\n        except OSError as e:\n            print(f\"Error:{e.strerror}\")\ndef detectarPoligono(imagen):\n    global num, suma, acumulado\n    global flag",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "detectarPoligono",
+        "kind": 2,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "def detectarPoligono(imagen):\n    global num, suma, acumulado\n    global flag\n    # PREPROCESADO DE LA IMÁGEN\n    imagenGris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    bordes = cv2.Canny(imagenGris, 59, 86)\n    kernel = np.ones((2, 2), np.uint8)\n    bordes = cv2.dilate(bordes, kernel)\n    ######### DETECCIÓN DE IMÁGEN ################\n    # RETR_EXTERNAL solo para contornos padres",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "num = 1  # Número que lleva el conteo de las fotos tomadas\nsuma = 0\nacumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root=\"C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/\"\nmodeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "suma = 0\nacumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root=\"C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/\"\nmodeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "acumulado",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "acumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root=\"C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/\"\nmodeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "flag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root=\"C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/\"\nmodeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "video",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "video = cv2.VideoCapture(1)  # Abrir camara\ndir_root=\"C:/Users/hecto/PycharmProjects/parcial_2/modelos/models/\"\nmodeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana\n    k = cv2.waitKey(5) & 0xFF",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "modeloCNN",
+        "kind": 5,
+        "importPath": "main.control",
+        "description": "main.control",
+        "peekOfCode": "modeloCNN = Prediccion(dir_root+\"modeloA.h5\", 128, 128) #Cargar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana\n    k = cv2.waitKey(5) & 0xFF\n    if k == 27:\n        break",
+        "detail": "main.control",
+        "documentation": {}
+    },
+    {
+        "label": "Recorta",
+        "kind": 6,
+        "importPath": "main.recorte",
+        "description": "main.recorte",
+        "peekOfCode": "class Recorta:\n    def recortar(self, ruta, image, contours, category, num):\n        idNum = category\n        for cntr in contours:\n            x, y, w, h = cv2.boundingRect(cntr)\n            if w > 50 and h > 50:\n                # Redimenciona\n                new_img = image[y:y + h, x:x + w]\n                cv2.imwrite(ruta + str(idNum) + '_' + str(num) + '.jpg', new_img)\n                idNum = idNum + 1",
+        "detail": "main.recorte",
         "documentation": {}
     },
     {
@@ -248,6 +363,15 @@
         "description": "venv.Scripts.activate_this",
         "peekOfCode": "sys.prefix = base",
         "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "Prediccion",
+        "kind": 6,
+        "importPath": "Prediccion",
+        "description": "Prediccion",
+        "peekOfCode": "class Prediccion():\n    def __init__(self,ruta,ancho,alto):\n        self.modelo=load_model(ruta)\n        self.alto=alto\n        self.ancho=ancho\n    def predecir(self,imagen):\n        imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n        imagen = cv2.resize(imagen, (self.ancho, self.alto))\n        imagen = imagen.flatten()\n        imagen = imagen / 255",
+        "detail": "Prediccion",
         "documentation": {}
     }
 ]
