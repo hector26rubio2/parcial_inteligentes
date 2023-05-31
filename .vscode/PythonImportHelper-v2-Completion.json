@@ -1,0 +1,1181 @@
+[
+    {
+        "label": "Recorta",
+        "importPath": "recorte",
+        "description": "recorte",
+        "isExtraImport": true,
+        "detail": "recorte",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Prediccion",
+        "importPath": "Prediccion",
+        "description": "Prediccion",
+        "isExtraImport": true,
+        "detail": "Prediccion",
+        "documentation": {}
+    },
+    {
+        "label": "Prediccion",
+        "importPath": "Prediccion",
+        "description": "Prediccion",
+        "isExtraImport": true,
+        "detail": "Prediccion",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow_addons",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow_addons",
+        "description": "tensorflow_addons",
+        "detail": "tensorflow_addons",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow.keras.optimizers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow.keras.optimizers",
+        "description": "tensorflow.keras.optimizers",
+        "detail": "tensorflow.keras.optimizers",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.python.keras.models",
+        "description": "tensorflow.python.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.python.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "keras",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keras",
+        "description": "keras",
+        "detail": "keras",
+        "documentation": {}
+    },
+    {
+        "label": "KFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "KFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "KFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "InputLayer",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPool2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Reshape",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "InputLayer",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPool2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Reshape",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "InputLayer",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPool2D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Reshape",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Cut",
+        "importPath": "Cut",
+        "description": "Cut",
+        "isExtraImport": true,
+        "detail": "Cut",
+        "documentation": {}
+    },
+    {
+        "label": "calcularAreas",
+        "kind": 2,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "def calcularAreas(figura):\n    areas = []\n    for figuraActual in figura:\n        areas.append(cv2.contourArea(figuraActual))\n    return areas\n####    CARGA LAS IMAGENES QUE SE ESTÁN EN LA CARPETA \"imagenesPrueba\"\ndef cargarDatos(numeroCategorias):\n    imagenesCargadas = []\n    for categoria in range(1, numeroCategorias):\n        ruta = F\"imagenesPrueba/{categoria}_1.jpg\"",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "cargarDatos",
+        "kind": 2,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "def cargarDatos(numeroCategorias):\n    imagenesCargadas = []\n    for categoria in range(1, numeroCategorias):\n        ruta = F\"imagenesPrueba/{categoria}_1.jpg\"\n        imagen = cv2.imread(ruta)\n        imagenesCargadas.append(imagen)\n    return imagenesCargadas\n###     ELIMINA LAS IMAGENES QUE SE HAN TOMADO\ndef eliminarImagenes():\n    py_files = glob.glob('imagenesPrueba/*.jpg')",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "eliminarImagenes",
+        "kind": 2,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "def eliminarImagenes():\n    py_files = glob.glob('imagenesPrueba/*.jpg')\n    for py_file in py_files:\n        try:\n            os.remove(py_file)\n        except OSError as e:\n            print(f\"Error:{e.strerror}\")\ndef detectarPoligono(imagen):\n    global num, suma, acumulado\n    global flag",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "detectarPoligono",
+        "kind": 2,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "def detectarPoligono(imagen):\n    global num, suma, acumulado\n    global flag\n    # PREPROCESADO DE LA IMÁGEN\n    imagenGris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    bordes = cv2.Canny(imagenGris, 59, 86)\n    kernel = np.ones((2, 2), np.uint8)\n    bordes = cv2.dilate(bordes, kernel)\n    ######### DETECCIÓN DE IMÁGEN ################\n    # RETR_EXTERNAL solo para contornos padres",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "num = 1  # Número que lleva el conteo de las fotos tomadas\nsuma = 0\nacumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "suma = 0\nacumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "acumulado",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "acumulado = 0  # Lleva el acumulado de la suma de las cartas\nflag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "flag = False  # Bandera que se habilita para realizar las operaciones\nvideo = cv2.VideoCapture(1)  # Abrir camara\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "video",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "video = cv2.VideoCapture(1)  # Abrir camara\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "dir_root",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "dir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n# Define and register the custom optimizer\ncustom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_objects",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "custom_objects = {\"CustomAdam\": optimizers.Adam}\n# Load the model with custom objects\nmodelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "modelo_path",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "modelo_path = dir_root + \"modelo_2.h5\"\nmodeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana\n    k = cv2.waitKey(5) & 0xFF\n    if k == 27:",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "modeloCNN",
+        "kind": 5,
+        "importPath": "Main.main",
+        "description": "Main.main",
+        "peekOfCode": "modeloCNN = Prediccion(modelo_path, 128, 128)  # Cargar el modelo Crgar el modelo\nwhile True:\n    _, imagen = video.read()\n    imgBorder, shapes = detectarPoligono(imagen)\n    small_img = Recorta()\n    cv2.imshow(\"Imagen\", imagen)\n    # Cerrar la ventana\n    k = cv2.waitKey(5) & 0xFF\n    if k == 27:\n        break",
+        "detail": "Main.main",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "width = 128\nheight = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "height = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "num_class",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "num_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "dirc",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "dir_root",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "dir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "miModeloCNN",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "miModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "imagenesPrueba,probabilidadesPrueba",
+        "kind": 5,
+        "importPath": "Main.matriz_confu",
+        "description": "Main.matriz_confu",
+        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "detail": "Main.matriz_confu",
+        "documentation": {}
+    },
+    {
+        "label": "Recorta",
+        "kind": 6,
+        "importPath": "Main.recorte",
+        "description": "Main.recorte",
+        "peekOfCode": "class Recorta:\n    def recortar(self, ruta, image, contours, category, num):\n        idNum = category\n        for cntr in contours:\n            x, y, w, h = cv2.boundingRect(cntr)\n            if w > 50 and h > 50:\n                # Redimenciona\n                new_img = image[y:y + h, x:x + w]\n                cv2.imwrite(ruta + str(idNum) + '_' + str(num) + '.jpg', new_img)\n                idNum = idNum + 1",
+        "detail": "Main.recorte",
+        "documentation": {}
+    },
+    {
+        "label": "cargarDatos",
+        "kind": 2,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "def cargarDatos(rutaOrigen, numeroCategorias, ancho, alto):\n    imagenesCargadas = []\n    valorEsperado = []\n    for categoria in range(1, numeroCategorias):\n        dir=rutaOrigen + str(categoria)\n        files = os.listdir(dir)\n        for file_name in files:\n            ruta=f\"{dir}/{file_name}\"\n            imagen = cv2.imread(ruta)\n            imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "width = 128\nheight = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "height = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "pixeles",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "pixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "num_channels",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "num_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "img_shape",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "img_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "num_class",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "num_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "dirc",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "imagenes,probabilidades",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "imagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"same\", activation= \"relu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "imagenesPrueba,probabilidadesPrueba",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"same\", activation= \"relu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "model = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"same\", activation= \"relu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"same\", activation= \"relu\", name= \"capa_2\" ))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "X = np.concatenate((imagenes, imagenesPrueba), axis=0)\ny = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "y = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "inicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])\n    f1score_fold.append(metricas[4])\n    recall_fold.append(metricas[3])",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "fin",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "fin = time.time()\n# Tiempo de ejecución.\ntiempo_total = fin - inicio\nprint(tiempo_total,\"tiempo total\")\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))\nprint(\"Precision\",np.mean(precision_fold))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "tiempo_total",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "tiempo_total = fin - inicio\nprint(tiempo_total,\"tiempo total\")\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))\nprint(\"Precision\",np.mean(precision_fold))\nprint(\"Recall\",np.mean(recall_fold))\nprint(\"F1 Score\",np.mean(f1score_fold))",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "ruta",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_1",
+        "description": "Modelos.entrenamiento_1",
+        "peekOfCode": "ruta = \"models/modelo_1.h5\"\nmodel.save(ruta)\n# Resumen - Estructura de la red\nmodel.summary()",
+        "detail": "Modelos.entrenamiento_1",
+        "documentation": {}
+    },
+    {
+        "label": "cargarDatos",
+        "kind": 2,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "def cargarDatos(rutaOrigen, numeroCategorias, ancho, alto):\n    imagenesCargadas = []\n    valorEsperado = []\n    for categoria in range(1, numeroCategorias):\n        dir=rutaOrigen + str(categoria)\n        files = os.listdir(dir)\n        for file_name in files:\n            ruta=f\"{dir}/{file_name}\"\n            imagen = cv2.imread(ruta)\n            imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "width = 128\nheight = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "height = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "pixeles",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "pixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "num_channels",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "num_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "img_shape",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "img_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "num_class",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "num_class = 8\n#dirc=\"C:/Users/hecto/PycharmProjects/parcailTs2.2.3/dataset/\"\ndirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "dirc",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "dirc = dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "imagenes,probabilidades",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "imagenes,probabilidades = cargarDatos(f\"{dirc}train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"valid\", activation= \"selu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "imagenesPrueba,probabilidadesPrueba",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = cargarDatos(f\"{dirc}test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"valid\", activation= \"selu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "model = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"valid\", activation= \"selu\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 3, strides= 2, filters= 64, padding= \"valid\", activation= \"selu\", name= \"capa_2\" ))",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "X = np.concatenate((imagenes, imagenesPrueba), axis=0)\ny = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=10,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "y = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=10,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "inicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=10,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])\n    f1score_fold.append(metricas[4])\n    recall_fold.append(metricas[3])",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "fin",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "fin = time.time()\n# Tiempo de ejecución.\ntiempo_total = fin - inicio\nprint(tiempo_total,\"tiempo total\")\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\n        \" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "tiempo_total",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "tiempo_total = fin - inicio\nprint(tiempo_total,\"tiempo total\")\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\n        \" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))\nprint(\"Precision\",np.mean(precision_fold))\nprint(\"Recall\",np.mean(recall_fold))",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "ruta",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_2",
+        "description": "Modelos.entrenamiento_2",
+        "peekOfCode": "ruta = \"models/modelo_2.h5\"\nmodel.save(ruta)\n# Resumen - Estructura de la red\nmodel.summary()",
+        "detail": "Modelos.entrenamiento_2",
+        "documentation": {}
+    },
+    {
+        "label": "cargarDatos",
+        "kind": 2,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "def cargarDatos(rutaOrigen, numeroCategorias, ancho, alto):\n    imagenesCargadas = []\n    valorEsperado = []\n    for categoria in range(1, numeroCategorias):\n        dir=rutaOrigen + str(categoria)\n        files = os.listdir(dir)\n        for file_name in files:\n            ruta=f\"{dir}/{file_name}\"\n            imagen = cv2.imread(ruta)\n            imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "width = 128\nheight = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "height = 128\npixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "pixeles",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "pixeles = width * height\nnum_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "num_channels",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "num_channels = 1        #Si imagen blanco/negro = 1     rgb = 3\nimg_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "img_shape",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "img_shape = (width, height, num_channels)\n#cantidad elementos clasificar\nnum_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "num_class",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "num_class = 8\ndirc=\"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\n#CargaImagen\nimagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "imagenes,probabilidades",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "imagenes,probabilidades = cargarDatos(dirc+\"train/\", num_class, width, height)\nimagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 2, strides= 2, filters= 50, padding= \"valid\", activation= \"sigmoid\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "imagenesPrueba,probabilidadesPrueba",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = cargarDatos(dirc+\"test/\", num_class, width, height)\nmodel = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 2, strides= 2, filters= 50, padding= \"valid\", activation= \"sigmoid\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "model = Sequential()\n#Capa de entrada\nmodel.add(InputLayer(input_shape= (pixeles,)))\n#Rearmar la imagen\nmodel.add(Reshape(img_shape))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 2, strides= 2, filters= 50, padding= \"valid\", activation= \"sigmoid\", name= \"capa_1\" ))\nmodel.add(MaxPool2D(pool_size=2, strides= 2))\n#Convolucional Layer\nmodel.add(Conv2D(kernel_size= 4, strides= 4, filters= 50, padding= \"valid\", activation= \"sigmoid\", name= \"capa_2\" ))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "X = np.concatenate((imagenes, imagenesPrueba), axis=0)\ny = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "y = np.concatenate((probabilidades, probabilidadesPrueba), axis=0)\n# Tiempo de inicio de ejecución.\ninicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "inicio = time.time()\nfor train, test in kFold.split( X, y):\n    print(\"##################Training fold \",numero_fold,\"###################################\")\n    model.fit(X[train], y[train],\n            epochs=15,         #Epocas--> Cantidad de veces que debe repetir el entrenamiento\n            batch_size=191      #Batch --> Cantidad de datos que puede cargar en memoria para realizar el entrenamiento en una fase\n            )\n    metricas=model.evaluate(X[test],y[test])\n    f1score_fold.append(metricas[4])\n    recall_fold.append(metricas[3])",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "fin",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "fin = time.time()\n# Tiempo de ejecución.\ntiempo_total = fin - inicio\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\n        \" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(tiempo_total, \"tiempo total\")\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "tiempo_total",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "tiempo_total = fin - inicio\nfor i in range(0,len(loss_fold)):\n    print(\"Fold \",(i+1),\"- Loss(Error)=\",loss_fold[i],\" - Accuracy=\",accuracy_fold[i],\n        \" - Precision=\",precision_fold[i],\" - Recall=\",recall_fold[i],\" - F1 Score=\",f1score_fold[i])\nprint(tiempo_total, \"tiempo total\")\nprint(\"-------Average scores-------\")\nprint(\"Loss\",np.mean(loss_fold))\nprint(\"Accuracy\",np.mean(accuracy_fold))\nprint(\"Precision\",np.mean(precision_fold))\nprint(\"Recall\",np.mean(recall_fold))",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "ruta",
+        "kind": 5,
+        "importPath": "Modelos.entrenamiento_3",
+        "description": "Modelos.entrenamiento_3",
+        "peekOfCode": "ruta = \"models/modelo_3.h5\"\nmodel.save(ruta)\n# Resumen - Estructura de la red\nmodel.summary()",
+        "detail": "Modelos.entrenamiento_3",
+        "documentation": {}
+    },
+    {
+        "label": "Cut",
+        "kind": 6,
+        "importPath": "Cut",
+        "description": "Cut",
+        "peekOfCode": "class Cut:\n    def crop2(image, contours, num, bordes,gris,carta):\n        pru = image\n        new_img = bordes\n        idNum = num\n        for c in contours:\n            area = cv2.contourArea(c)\n            if area == 0:\n                break\n            x, y, w, h = cv2.boundingRect(c)",
+        "detail": "Cut",
+        "documentation": {}
+    },
+    {
+        "label": "dir",
+        "kind": 5,
+        "importPath": "Llenado",
+        "description": "Llenado",
+        "peekOfCode": "dir = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/datos/\"\nnewd = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\nfor i in range(1,8):\n    # The list of items\n    files = os.listdir(f\"{dir}{i}\")\n    xTrain, xTest = train_test_split(files, test_size=0.20, random_state=42)\n    # Loop to print each filename separately\n    for filename in xTrain:\n        carp = f\"{newd}train/{i}\"\n        if not os.path.exists(carp):",
+        "detail": "Llenado",
+        "documentation": {}
+    },
+    {
+        "label": "newd",
+        "kind": 5,
+        "importPath": "Llenado",
+        "description": "Llenado",
+        "peekOfCode": "newd = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\nfor i in range(1,8):\n    # The list of items\n    files = os.listdir(f\"{dir}{i}\")\n    xTrain, xTest = train_test_split(files, test_size=0.20, random_state=42)\n    # Loop to print each filename separately\n    for filename in xTrain:\n        carp = f\"{newd}train/{i}\"\n        if not os.path.exists(carp):\n            os.makedirs(carp)",
+        "detail": "Llenado",
+        "documentation": {}
+    },
+    {
+        "label": "nothing",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def nothing(x):\n    pass\ndef constructorVentana(nameWindow):\n    cv2.namedWindow(nameWindow)\n    cv2.createTrackbar(\"min\", nameWindow, 59, 255, nothing)\n    cv2.createTrackbar(\"max\", nameWindow, 86, 255, nothing)\n    cv2.createTrackbar(\"kernel\", nameWindow, 2, 100, nothing)\n    cv2.createTrackbar(\"areaMin\", nameWindow, 350, 2000, nothing)\n    cv2.createTrackbar(\"areaMax\", nameWindow, 1300, 5000, nothing)\n\"\"\"calcular area de la figura\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "constructorVentana",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def constructorVentana(nameWindow):\n    cv2.namedWindow(nameWindow)\n    cv2.createTrackbar(\"min\", nameWindow, 59, 255, nothing)\n    cv2.createTrackbar(\"max\", nameWindow, 86, 255, nothing)\n    cv2.createTrackbar(\"kernel\", nameWindow, 2, 100, nothing)\n    cv2.createTrackbar(\"areaMin\", nameWindow, 350, 2000, nothing)\n    cv2.createTrackbar(\"areaMax\", nameWindow, 1300, 5000, nothing)\n\"\"\"calcular area de la figura\"\"\"\ndef calcularAreas(figuras):\n    areas = []",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "calcularAreas",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def calcularAreas(figuras):\n    areas = []\n    for figuraActual in figuras:\n        areas.append(cv2.contourArea(figuraActual))\n    return areas\ndef dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow,carta):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "dar_texto_resaltar_img",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow,carta):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "detectarFormas",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def detectarFormas(imagen, idImg, recorte, nameWindow,carta):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)\n    kernel = np.ones((tamaño_kernel, tamaño_kernel), np.uint8)\n    bordes = cv2.dilate(bordes, kernel)\n    cv2.imshow(\"Bordes\", bordes)\n    # Deteccion de la figura",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "detectarFormas2",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def detectarFormas2(imagen, idImg, recorte, nameWindow):\n    carta = imagen\n    imagengris = cv2.cvtColor(imagen, cv2.COLOR_RGB2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    tamañoKernel = cv2.getTrackbarPos(\"kernel\", nameWindow)\n    areamin = cv2.getTrackbarPos(\"areaMin\", nameWindow)\n    areamax = cv2.getTrackbarPos(\"areaMax\", nameWindow)\n    bordes = cv2.Canny(imagengris, min, max)\n    kernel = np.ones((tamañoKernel, tamañoKernel), np.uint8)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cnvrtBase64",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def cnvrtBase64(rutaImagen):\n    img = cv2.imread(rutaImagen)\n    retval, buffer = cv2.imencode('.jpg', img)\n    jpg_as_text = base64.b64encode(buffer)\n    encoded_string = jpg_as_text.decode('utf-8')\n    return encoded_string\n\"\"\"Función para devolver los nombres de las imagenes obtenidas\"\"\"\ndef listar_cartas(ruta):\n    dir = ruta\n    imagenes = []",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "listar_cartas",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def listar_cartas(ruta):\n    dir = ruta\n    imagenes = []\n    with os.scandir(dir) as ficheros:\n        for fichero in ficheros:\n            imagenes.append(fichero.name)\n    return imagenes\ndef gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "gui",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut()\n    k = 0\n    constructorVentana(nameWindow)\n    carta = int(input(\"ingrese la carta :\"))\n    idImg = 27\n    while True:\n        k = cv2.waitKey(1)\n        _, imagen = camara.read()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    nameWindow = \"Calculadora Canny\"\n    modelos=gui(nameWindow)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Prediccion",
+        "kind": 6,
+        "importPath": "Prediccion",
+        "description": "Prediccion",
+        "peekOfCode": "class Prediccion():\n    def __init__(self,ruta,ancho,alto):\n        self.ruta = ruta\n        self.modelo=load_model(self.ruta, custom_objects={\"Addons>F1Score\": tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\n        self.alto=alto\n        self.ancho=ancho\n    def predecir(self,imagen):\n        imagen = cv2.resize(imagen, (self.ancho, self.alto))\n        imagen = imagen.flatten()\n        imagen = imagen / 255",
+        "detail": "Prediccion",
+        "documentation": {}
+    }
+]
