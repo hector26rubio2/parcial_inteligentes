@@ -1,7 +1,7 @@
 # parcial_inteligentes
 
 ## link 
-[![]()
+![LINK VIDEO](https://youtu.be/svsieNtAplE)
 
 ## Dataset
 - Entrenamiento: 'dataset/train'
