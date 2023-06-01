@@ -1,8 +1,7 @@
 # parcial_inteligentes
 
 ## link 
-![LINK VIDEO](https://youtu.be/svsieNtAplE)}}}
-[![LINK VIDEO]({https://www.ucaldas.edu.co/portal/wp-content/uploads/2017/08/Logo_claroU.png})]({https://youtu.be/svsieNtAplE} "LINK VIDEO")
+[![LINK VIDEO](https://www.ucaldas.edu.co/portal/wp-content/uploads/2017/08/Logo_claroU.png)](https://youtu.be/svsieNtAplE)
 
 ## Dataset
 - Entrenamiento: 'dataset/train'
