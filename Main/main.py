@@ -13,15 +13,25 @@ import tensorflow_addons as tfa
 import tensorflow.keras.optimizers as optimizers
 from tensorflow.keras.models import load_model
 
+# Función para calcular las áreas de las figuras.
 
+# Parámetros:
+# - figura: lista de figuras (contornos) (lista)
+# Retorna:
+# - Lis
 def calcularAreas(figura):
     areas = []
     for figuraActual in figura:
         areas.append(cv2.contourArea(figuraActual))
     return areas
 
+# Función para cargar imágenes de la carpeta 'imagenesPrueba'.
 
-####    CARGA LAS IMAGENES QUE SE ESTÁN EN LA CARPETA "imagenesPrueba"
+# Parámetros:
+# - numeroCategorias: número de categorías de imágenes a cargar (entero)
+
+# Retorna:
+# - Lista de imágenes cargadas (lista)
 def cargarDatos(numeroCategorias):
     imagenesCargadas = []
     for categoria in range(1, numeroCategorias):
@@ -31,7 +41,7 @@ def cargarDatos(numeroCategorias):
     return imagenesCargadas
 
 
-###     ELIMINA LAS IMAGENES QUE SE HAN TOMADO
+# Función para eliminar archivos de imágenes en la carpeta 'imagenesPrueba'.
 def eliminarImagenes():
     py_files = glob.glob('imagenesPrueba/*.jpg')
 
@@ -42,6 +52,13 @@ def eliminarImagenes():
             print(f"Error:{e.strerror}")
 
 
+# Función para detectar y dibujar polígonos en una imagen.
+
+# Parámetros:
+# - imagen: la imagen en la cual se realizará la detección de polígonos (numpy array)
+
+# Retorna:
+# - Una lista con los bordes de la imagen y los polígonos detectados (lista)
 def detectarPoligono(imagen):
     global num, suma, acumulado
     global flag

@@ -1,10 +1,24 @@
 import os
 import cv2
 class Cut:
-    def crop2(image, contours, num, bordes,gris,carta):
+    
+    # Función para recortar imágenes según contornos y condiciones dadas.
+
+    # Parámetros:
+    # - image: la imagen original (numpy array)
+    # - contours: lista de contornos detectados en la imagen (lista de numpy arrays)
+    # - num: número actual (entero)
+    # - bordes: imagen de bordes (numpy array)
+    # - gris: imagen en escala de grises (numpy array)
+
+    # Retorna:
+    # - idNum: número actualizado (entero)
+    # - new_img: última imagen recortada (numpy array)
+    def crop2(image, contours, num, bordes,gris):
         pru = image
         new_img = bordes
         idNum = num
+        carta = 7
         for c in contours:
             area = cv2.contourArea(c)
             if area == 0:

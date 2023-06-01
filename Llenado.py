@@ -3,9 +3,9 @@ import os
 from sklearn.model_selection import train_test_split
 import shutil
 
-
-dir = "C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/datos/"
+dir ="C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/datos/"
 newd = "C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/"
+
 for i in range(1,8):
     # The list of items
     files = os.listdir(f"{dir}{i}")
@@ -25,3 +25,5 @@ for i in range(1,8):
         if not os.path.exists(carp):
             os.makedirs(carp)
         shutil.move(f"{dir}{i}/{filename}", f"{carp}/{filename}")
+        # print(filename)
+

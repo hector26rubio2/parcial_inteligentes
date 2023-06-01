@@ -388,24 +388,6 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "Cut",
         "importPath": "Cut",
         "description": "Cut",
@@ -535,7 +517,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "width = 128\nheight = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)",
+        "peekOfCode": "width = 128\nheight = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -544,7 +526,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "height = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)",
+        "peekOfCode": "height = 128\nnum_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -553,7 +535,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "num_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)",
+        "peekOfCode": "num_class = 8\ndirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -562,7 +544,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Crops/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "peekOfCode": "dirc = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/dataset/\"\ndir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -571,7 +553,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "dir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "peekOfCode": "dir_root = \"C:/Users/hecto/OneDrive/Documentos/GitHub/Parcial/Modelos/models/\"\n###  CAMBIAR RUTAS PARA MOSTRAR LOS OTROS MODELOS    ###\nmiModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -580,7 +562,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "miModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "peekOfCode": "miModeloCNN = Prediccion(f\"{dir_root}/modelo_2.h5\", width, height)\nimagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -589,7 +571,7 @@
         "kind": 5,
         "importPath": "Main.matriz_confu",
         "description": "Main.matriz_confu",
-        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_3.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
+        "peekOfCode": "imagenesPrueba,probabilidadesPrueba = miModeloCNN.cargarDatos( dirc+\"test/\", num_class, width, height)\nmodel= load_model(f\"{dir_root}/modelo_2.h5\",custom_objects={\"Addons>F1Score\":tfa.metrics.F1Score(num_classes=2, average=\"micro\")})\nYPred= model.predict(imagenesPrueba)\nyPred= np.argmax(YPred, axis=1)\nMatrixConf= confusion_matrix( np.argmax(probabilidadesPrueba,axis=1),yPred)\nprint(MatrixConf)",
         "detail": "Main.matriz_confu",
         "documentation": {}
     },
@@ -1057,7 +1039,7 @@
         "kind": 6,
         "importPath": "Cut",
         "description": "Cut",
-        "peekOfCode": "class Cut:\n    def crop2(image, contours, num, bordes,gris,carta):\n        pru = image\n        new_img = bordes\n        idNum = num\n        for c in contours:\n            area = cv2.contourArea(c)\n            if area == 0:\n                break\n            x, y, w, h = cv2.boundingRect(c)",
+        "peekOfCode": "class Cut:\n    def crop2(image, contours, num, bordes,gris):\n        pru = image\n        new_img = bordes\n        idNum = num\n        carta = 7\n        for c in contours:\n            area = cv2.contourArea(c)\n            if area == 0:\n                break",
         "detail": "Cut",
         "documentation": {}
     },
@@ -1102,7 +1084,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def calcularAreas(figuras):\n    areas = []\n    for figuraActual in figuras:\n        areas.append(cv2.contourArea(figuraActual))\n    return areas\ndef dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow,carta):",
+        "peekOfCode": "def calcularAreas(figuras):\n    areas = []\n    for figuraActual in figuras:\n        areas.append(cv2.contourArea(figuraActual))\n    return areas\ndef dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow):",
         "detail": "main",
         "documentation": {}
     },
@@ -1111,7 +1093,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow,carta):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)",
+        "peekOfCode": "def dar_texto_resaltar_img(imagen, mensaje, figura_actual):\n    cv2.putText(imagen, mensaje, (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)\n    cv2.drawContours(imagen, [figura_actual], 0, (0, 0, 255), 2)\n\"\"\"detectar forma dentro del rectangulo \"\"\"\ndef detectarFormas(imagen, idImg, recorte, nameWindow):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)",
         "detail": "main",
         "documentation": {}
     },
@@ -1120,7 +1102,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def detectarFormas(imagen, idImg, recorte, nameWindow,carta):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)\n    kernel = np.ones((tamaño_kernel, tamaño_kernel), np.uint8)\n    bordes = cv2.dilate(bordes, kernel)\n    cv2.imshow(\"Bordes\", bordes)\n    # Deteccion de la figura",
+        "peekOfCode": "def detectarFormas(imagen, idImg, recorte, nameWindow):\n    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)\n    min = cv2.getTrackbarPos(\"min\", nameWindow)\n    max = cv2.getTrackbarPos(\"max\", nameWindow)\n    bordes = cv2.Canny(imagen_gris, min, max)\n    tamaño_kernel = cv2.getTrackbarPos(\"kernel\", nameWindow)\n    kernel = np.ones((tamaño_kernel, tamaño_kernel), np.uint8)\n    bordes = cv2.dilate(bordes, kernel)\n    cv2.imshow(\"Bordes\", bordes)\n    # Deteccion de la figura",
         "detail": "main",
         "documentation": {}
     },
@@ -1138,7 +1120,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def cnvrtBase64(rutaImagen):\n    img = cv2.imread(rutaImagen)\n    retval, buffer = cv2.imencode('.jpg', img)\n    jpg_as_text = base64.b64encode(buffer)\n    encoded_string = jpg_as_text.decode('utf-8')\n    return encoded_string\n\"\"\"Función para devolver los nombres de las imagenes obtenidas\"\"\"\ndef listar_cartas(ruta):\n    dir = ruta\n    imagenes = []",
+        "peekOfCode": "def cnvrtBase64(rutaImagen):\n    img = cv2.imread(rutaImagen)\n    retval, buffer = cv2.imencode('.jpg', img)\n    jpg_as_text = base64.b64encode(buffer)\n    encoded_string = jpg_as_text.decode('utf-8')\n    return encoded_string\ndef listar_cartas(ruta):\n    dir = ruta\n    imagenes = []\n    with os.scandir(dir) as ficheros:",
         "detail": "main",
         "documentation": {}
     },
@@ -1147,7 +1129,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def listar_cartas(ruta):\n    dir = ruta\n    imagenes = []\n    with os.scandir(dir) as ficheros:\n        for fichero in ficheros:\n            imagenes.append(fichero.name)\n    return imagenes\ndef gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut()",
+        "peekOfCode": "def listar_cartas(ruta):\n    dir = ruta\n    imagenes = []\n    with os.scandir(dir) as ficheros:\n        for fichero in ficheros:\n            imagenes.append(fichero.name)\n    return imagenes\ndef gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut",
         "detail": "main",
         "documentation": {}
     },
@@ -1156,7 +1138,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut()\n    k = 0\n    constructorVentana(nameWindow)\n    carta = int(input(\"ingrese la carta :\"))\n    idImg = 27\n    while True:\n        k = cv2.waitKey(1)\n        _, imagen = camara.read()",
+        "peekOfCode": "def gui(nameWindow):\n    camara = cv2.VideoCapture(1)\n    recorte = Cut\n    k = 0\n    constructorVentana(nameWindow)\n    idImg = 27\n    while True:\n        k = cv2.waitKey(1)\n        _, imagen = camara.read()\n        imagen, idImg = detectarFormas(imagen, idImg, recorte,nameWindow)",
         "detail": "main",
         "documentation": {}
     },
@@ -1165,7 +1147,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def main():\n    nameWindow = \"Calculadora Canny\"\n    modelos=gui(nameWindow)\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "def main():\n    nameWindow = \"Calculadora Canny\"\n    gui(nameWindow)\nif __name__ == \"__main__\":\n    main()",
         "detail": "main",
         "documentation": {}
     },
