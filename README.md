@@ -1,2 +1,0 @@
-# parcial_inteligentes
- 
